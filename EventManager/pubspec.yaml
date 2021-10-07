@@ -1,0 +1,51 @@
+name: EventManager
+description: Parsec - event management app for tech fest.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  postgres: ^2.2.0
+  
+  firebase_auth: ^0.18.3+1
+  firebase_core: 
+  google_sign_in: ^4.5.6
+  cloud_firestore: ^0.14.3+1
+  firebase_database: ^4.3.0
+  firebase_storage: ^5.1.0
+  email_validator: ^1.0.6
+  fluttertoast: ^7.1.4
+  loading_animations: ^2.1.0
+  # flutter_launcher_icons: "^0.7.3"
+  
+# flutter pub run flutter_launcher_icons:main    // ParsecDetails // logo
+flutter_icons:
+  image_path: "assets/images/mainLogo.png"
+  adaptive_icon_foreground: "assets/images/mainLogo.png"
+  adaptive_icon_background: "#FFFFFF"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Signatra
+      fonts:
+        - asset: assets/fonts/Signatra.ttf
+  assets:
+    - assets/images/
