@@ -317,9 +317,7 @@ class _AdminAddANewInviligatorState extends State<AdminAddANewInviligator> {
                             ),
                           ),
 
-                          SizedBox(
-                            height: 64.0,
-                          ),
+                          SizedBox(height: 64.0),
 
                           ///
                           ///
