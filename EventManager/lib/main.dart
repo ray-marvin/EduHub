@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         //this is the theme for the entire app.
-        scaffoldBackgroundColor: Colors.black,
+        scaffoldBackgroundColor: Colors.white,
         primaryColor: Colors.white,
         inputDecorationTheme: new InputDecorationTheme(
           hintStyle: TextStyle(
